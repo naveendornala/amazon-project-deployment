@@ -23,9 +23,26 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-@m$i0_!xq6gcl347y%dz6#@_uz4t(6v#=7&_y@fk1ne1)t8_vf'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['projectdjango-hfid.onrender.com']
+ALLOWED_HOSTS = ["amazonwork.onrender.com",
+    ".onrender.com",
+    "localhost",
+    "127.0.0.1"]
+
+DEBUG = False
+
+ALLOWED_HOSTS = [
+    "amazonwork.onrender.com",
+    ".onrender.com",
+    "localhost",
+    "127.0.0.1"
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://amazonwork.onrender.com"
+]
+
 
 
 # Application definition
