@@ -36,7 +36,8 @@ ALLOWED_HOSTS = [
     "amazonwork.onrender.com",
     ".onrender.com",
     "localhost",
-    "127.0.0.1"
+    "127.0.0.1",
+    'nikhilproject.onrender.com'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
